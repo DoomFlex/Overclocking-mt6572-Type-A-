@@ -25,28 +25,28 @@
 /*Warning!!! 
 Not overclocking to 2100000 KHz
 You may kill Mt6572 */
-/******Overclock List********
-#define DVFS_X0              (1989000)   // KHz, OD
-#define DVFS_X1              (1900000)   // KHz, OD
-#define DVFS_X2              (1850000)   // KHz, OD
-#define DVFS_X3              (1800000)   // KHz, OD
-#define DVFS_X4              (1750000)   // KHz, OD
-#define DVFS_X5              (1700000)   // KHz, OD
-#define DVFS_X6              (1650000)   // KHz, OD
-#define DVFS_X7              (1600000)   // KHz, OD*/
+/******Overclock List********/
+#define DVFS_D0              (1989000)   // KHz, OD
+#define DVFS_D1              (1900000)   // KHz, OD
+#define DVFS_D2              (1850000)   // KHz, OD
+#define DVFS_D3              (1800000)   // KHz, OD
+#define DVFS_D4              (1750000)   // KHz, OD
+#define DVFS_D5              (1640000)   //KHz, OD
+#define DVFS_D6              (1600000)   // KHz, OD
+#define DVFS_D7              (1500000)   // KHz, OD*/
 /*Default clock list*/
-#define DVFS_D1              (1590000)   // KHz, OD
-#define DVFS_D2              (1400000)   // KHz, OD
-#define DVFS_D3              (1239000)   // KHz, OD
-#define DVFS_F1              (1021000)   // KHz
-#define DVFS_F2              (816000)    // KHz
-#define DVFS_F3              (568000)    // KHz
+#define DVFS_D8              (1390000)   // KHz, OD
+#define DVFS_D9              (1100000)   // KHz, OD
+#define DVFS_D10              (999000)   // KHz, OD
+#define DVFS_F1              (780000)   // KHz
+#define DVFS_F2              (450000)    // KHz
+#define DVFS_F3              (340000)   // KHz
 
-/* Voltage for overclock list
+/* Voltage for overclock list*/
 #define DVFS_V0              (1400)  // mV, OD*/
 /*Default Voltage*/
-#define DVFS_V0              (1280)  // mV, OD
-#define DVFS_V1              (1140)  // mV
+//#define DVFS_V0              (1280)  // mV, OD
+#define DVFS_V1              (1100)    
 
 #define DVFS_MIN_VCORE       (1140)
 #define DEFAULT_FREQ         (1400000)   // KHz
